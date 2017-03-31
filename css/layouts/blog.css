@@ -1,0 +1,173 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(61, 146, 201);
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+/* LAYOUT CSS */
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#layout {
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  top: auto;
+  margin: 3em auto;
+}
+
+.sidebar {
+  background: #066cbb;
+  color: #fff;
+}
+
+.brand-title, .brand-tagline {
+  margin: 0;
+}
+
+.brand-title {
+  text-transform: uppercase;
+}
+
+.brand-tagline {
+  font-weight: 300;
+  color: rgb(176, 202, 219);
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.nav-item a {
+  background: transparent;
+  border: 2px solid rgb(176, 202, 219);
+  color: #fff;
+  margin-top: 1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+
+.nav-item a:hover, .nav-item a:focus {
+  border: 2px solid rgb(61, 146, 201);
+  text-decoration: none;
+}
+
+.content-subhead {
+  text-transform: uppercase;
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+  padding: 0.4em 0;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.content {
+  padding: 2em 1em 0;
+}
+
+.main-content .content-title {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+}
+
+.projects .project {
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 2px;
+  margin-bottom: 5%;
+  color: #4e4e4e;
+}
+
+.projects .project h1{
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.projects .project .project-description {
+  height: 110px;
+  overflow: scroll;
+}
+
+.project-tags, .project-links {
+  margin: 0;
+}
+
+.project-tags .tag {
+  background-color: #292929;
+  color: #fff;
+  padding: 5px;
+  font-size: 0.8em;
+  border-radius: 2px;
+  display: inline;
+}
+
+.project-links {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.project-links .link {
+  padding: 5px;
+  font-size: 0.8em;
+}
+
+.project-links .link a{
+  padding: 5px 10px;
+  background-color: #ff9800;
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Small Screen Sizes */
+@media (min-width: 35.5em) {
+  .projects .project {
+    width: 48%;
+    margin: 1%;
+  }
+}
+
+/* Medium Screen Sizes */
+@media (min-width: 48em) {
+  .content {
+    padding: 2em 1em 0;
+    margin-left: 25%;
+  }
+  .header {
+    margin: 80% 2em 0;
+    text-align: right;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+}
