@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f1bf33;
+  background-color: #fff;
 }
 
 a {
@@ -43,7 +43,7 @@ html, body, #layout {
 }
 
 .sidebar {
-  background: #422700;
+  background: #292826;
   color: #fff;
 }
 
@@ -57,7 +57,7 @@ html, body, #layout {
 
 .brand-tagline {
   font-weight: 300;
-  color: #f1bf33;
+  color: #e91e63;
 }
 
 .nav-list {
@@ -74,7 +74,7 @@ html, body, #layout {
 
 .nav-item a {
   background: transparent;
-  border: 2px solid #f1bf33;
+  border: 2px solid #e91e63;
   color: #fff;
   margin-top: 1em;
   letter-spacing: 0.05em;
@@ -83,7 +83,7 @@ html, body, #layout {
 }
 
 .nav-item a:hover, .nav-item a:focus {
-  background-color: #f1bf33;
+  background-color: #e91e63;
   text-decoration: none;
 }
 
@@ -110,10 +110,10 @@ html, body, #layout {
 .projects .project {
   padding: 15px;
   margin-bottom: 5%;
-  background-color: #fff6e1;
+  background-color: #fff;
   border-radius: 2px;
-  border: 2px solid rgba(66, 39, 0, 0.68);
-  color: #422700;
+  border: 2px solid #292826;
+  color: #292826;
 }
 
 .projects .project h1{
@@ -131,7 +131,7 @@ html, body, #layout {
 }
 
 .project-tags .tag {
-  background-color: #885644;
+  background-color: #292826;
   color: #fff;
   padding: 5px;
   font-size: 0.8em;
@@ -151,7 +151,7 @@ html, body, #layout {
 
 .project-links .link a{
   padding: 5px 10px;
-  background-color: #422700;
+  background-color: #e91e63;
   color: #fff;
   border-radius: 2px;
 }
